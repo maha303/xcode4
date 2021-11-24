@@ -6,7 +6,7 @@ var deckOfCards = [String: [Int]]()
 
 // your code here
 for i in suits{
-    deckOfCards["\(i)"]=cards
+    deckOfCards[i]=cards
 }
 print(deckOfCards)
 
